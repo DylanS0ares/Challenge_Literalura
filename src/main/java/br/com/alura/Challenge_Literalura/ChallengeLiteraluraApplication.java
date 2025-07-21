@@ -13,7 +13,8 @@ public class ChallengeLiteraluraApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
-		Principal meuPrincipal = new Principal();
-		meuPrincipal.exibeMenu();
+			Principal principal = new Principal();
+			principal.exibeMenu();
+
 	}
 }
